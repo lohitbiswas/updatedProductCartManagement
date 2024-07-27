@@ -5,10 +5,14 @@ import com.indusnet.ums.model.CartItemModel;
 import com.indusnet.ums.model.CartModel;
 import com.indusnet.ums.repository.ICartRepository;
 import com.indusnet.ums.service.ICartService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.Optional;
 
+@Service
+@Slf4j
 public class ICartServiceImpl implements ICartService {
 
     @Autowired

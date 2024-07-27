@@ -5,10 +5,13 @@ import com.indusnet.ums.model.UserRecommendationModel;
 import com.indusnet.ums.repository.IProductRecommendationRepository;
 import com.indusnet.ums.repository.IProductServiceRepository;
 import com.indusnet.ums.service.IProductRecommendationService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
+@Slf4j
 public class IProductRecommendationImpl implements IProductRecommendationService {
 
     @Autowired

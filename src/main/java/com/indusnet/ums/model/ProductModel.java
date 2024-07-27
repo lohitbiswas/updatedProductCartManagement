@@ -36,9 +36,7 @@ public class ProductModel {
     public double getPrice;
 
 
-    public double getPrice() {
-        return getPrice;
-    }
+
 
 
 }
